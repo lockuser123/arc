@@ -1,0 +1,195 @@
+.hidden {
+    display: none;
+  }
+
+/* Free Themes */
+body[theme="main"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #EA4747;
+    --background-light: #252525;
+    --accent-dark: #aa3333;
+    --accent-light: #d87979;
+}
+
+body[theme="orange"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #eaa147;
+    --accent-dark: #ae7832;
+    --accent-light: #edc588;
+    --background-light: #252525;
+}
+
+body[theme="lemon"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #eabf47;
+    --accent-dark: #ae9b32;
+    --accent-light: #ede388;
+    --background-light: #252525;
+}
+
+body[theme="kiwi"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #72bb55;
+    --accent-dark: #247a24;
+    --accent-light: #bde3ab;
+    --background-light: #252525;
+}
+
+body[theme="blueberry"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #476dea;
+    --accent-dark: #273e8a;
+    --accent-light: #88a0ed;
+    --background-light: #252525;
+}
+
+body[theme="lavender"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #8347ea;
+    --accent-dark: #41278a;
+    --accent-light: #a588ed;
+    --background-light: #252525;
+}
+
+body[theme="blossom"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #dfa5ea;
+    --accent-dark: #995e9c;
+    --accent-light: #ffc9fe;
+    --background-light: #252525;
+}
+
+body[theme="coffee"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #ae9278;
+    --accent-dark: #625244;
+    --accent-light: #b39c7f;
+    --background-light: #252525;
+}
+
+body[theme="milk"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #d9d9d9;
+    --accent-dark: #bababa;
+    --accent-light: #e6e6e6;
+    --background-light: #252525;
+}
+
+body[theme="chia"] {
+    --text-color: white;
+    --background: #1C1C1C;
+    --accent: #000000;
+    --accent-dark: #1c1c1c;
+    --accent-light: #636363;
+    --background-light: #252525;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Level Themes */
+
+body[theme="toffee"] {
+    --text-color: #1C1C1C;
+    --background: #dcd5d5;
+    --accent: #ffd39d;
+    --accent-light: #ffedd7;
+    --accent-dark: #ffe7ca;
+    --background-light: #fcf1f1;
+}
+
+body[theme="blackberry"] {
+    --text-color: #ffffff;
+    --background: #000000;
+    --accent: #818181;
+    --accent-dark: #242424;
+    --accent-light: #c5c5c5;
+    --background-light: #1C1C1C;
+}
+
+body[theme="winter"] {
+    --text-color: #ffffff;
+    --background: #99c9ff;
+    --accent: #3351c9;
+    --background-light: #bedcff;
+    --accent-dark: #24398c;
+    --accent-light: #9cb4d0;
+}
+
+body[theme="summer"] {
+    --text-color: #F0F2E7;
+    background-image: linear-gradient(to bottom, #FFCA27, #FF8296);
+    --accent: #75a5d8;
+    --background: #FFCA27;
+    --background-light: #f5a4b2;
+    --accent-dark: #f5a4b2;
+    --accent-light: #85a8c2;
+}
+
+body[theme="sunwave"] {
+    --text-color: #ffffff;
+    --background: #f09928;
+    --accent: #fda726;
+    --accent-dark: #fda726;
+    --accent-light: #fcd2ff;
+    --background-light: #e3b4ff;
+    background-image: linear-gradient(to bottom, #ec9bf2, #efb262);
+}
+
+body[theme="ruby"] {
+    --text-color: #ffffff;
+    --background: #EA4747;
+    --accent: #ac3a3a;
+    --accent-dark: #EA4747;
+    --accent-light: #fd8181;
+    --background-light: #883030;
+    background-image: linear-gradient(to bottom, #EA4747, #fd8181);
+}
+
+/* Unblocked sites */
+
+
+body[theme="szvy"] {
+    --text-color: #ffffff;
+    --background: #111;
+    --accent: #4CAF50;
+    --accent-dark: #2c632d;
+    --accent-light: #67ea6b;
+    --background-light: #222222;
+}
+
+body[theme="meximath"] {
+    --text-color: #ffffff;
+    background-image: linear-gradient(to bottom, #0158a8, #000b6e);
+    --accent: #bababa;
+    --accent-dark: #c5c5c5;
+    --accent-light: #81a8fd;
+    --background-light: #060d4f;
+    --background: #000b6e;
+}
+
+body[theme="seraph"] {
+    --text-color: #aeaeae;
+    --background: #000000;
+    --accent: #ffffff;
+    --accent-dark: #ffffff;
+    --accent-light: #ffffff;
+    --background-light: #000000;
+}
