@@ -1,0 +1,133 @@
+#gameLoaderSection {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: var(--background);
+  z-index: 9998;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+  #gameLoaderContainer {
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    border-radius: 5px;
+  }
+  
+  #gameFrame {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    background-color: var(--text-color);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  
+
+  #window {
+    width: 80%;
+    align-items: center;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+    border-radius: 5px;
+  }
+  
+  .gameBar {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    user-select: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    background-color: var(--accent);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: var(--text-color);
+  }
+
+  .gamebar img {
+    position: absolute;
+  }
+
+  .gamename {
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    margin-left: 2vh;
+  }
+
+  .button-group {
+    display: flex;
+    right: 0;
+  }
+  
+  .gameBarButton {
+    cursor: pointer;
+    transition: opacity 0.3s;
+    border: none;
+    width: 55px;
+    height: 40px;
+    bottom: 0;
+    background-color: transparent;
+    cursor: default;
+    transition: filter 0.3s ease;
+  }
+
+.close,
+.refresh,
+.fullscreen {
+  transition: all 250ms;
+}
+
+   .close:hover {
+    background-color: red;
+    border-top-right-radius: 8px;
+  }
+
+  .refresh:hover {
+    background-color: var(--accent-light);
+  }
+
+  .fullscreen:hover {
+    background-color: var(--accent-light);
+  }
+
+  
+  .undoExpandBtn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999; 
+    border-radius: 25%;
+    padding: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6); 
+    transition: 150ms;
+  }
+
+  .undoExpandBtn:hover {
+    background-color: rgb(65, 65, 65); 
+  }
+
+  
+
+
+  
+  .no-scroll {
+    overflow: hidden;
+    
+  }
